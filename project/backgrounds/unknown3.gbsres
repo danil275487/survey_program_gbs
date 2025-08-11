@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fb04d07a-a67b-47ad-b9e4-58fc53557f06",
+  "name": "unknown3",
+  "symbol": "bg_composite_2",
+  "width": 182,
+  "height": 26,
+  "imageWidth": 1456,
+  "imageHeight": 208,
+  "filename": "unknown3.png",
+  "tileColors": "00127c+",
+  "autoColor": true
+}

@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "88c7bc1b-f47f-4689-bd87-6cacf263d3f4",
+  "name": "footsteps",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "references": []
+      },
+      "id": "35f4c5a7-42b8-4942-a6c2-bfb29b90532c"
+    }
+  ]
+}

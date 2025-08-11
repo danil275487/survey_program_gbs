@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "9a1cdbc3-d1a0-4669-8461-03b385144a7b",
+  "_index": 0,
+  "name": "unknown2",
+  "backgroundId": "2932a958-938d-4a5c-8415-11a933b31d41",
+  "tilesetId": "",
+  "width": 32,
+  "height": 21,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "1367faf7-5cec-4043-a9d5-e1a33ccb7e13",
+    "9d096cb8-e622-4b39-a3af-d32fa8f3bc39",
+    "825d78fb-82c0-48a4-8a90-7437e9b88ad9",
+    ""
+  ],
+  "collisions": "0089+0fc+0014+0f!00a+0f!00b+0fa+00a+0fc+0080+0fa+00a+0fc+009+0f!00a+0f!0014+0f3+006+0f3+0016+0f!006+0f!0018+0f8+00ad+",
+  "autoFadeSpeed": null,
+  "symbol": "scene_1",
+  "x": 552,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7b998728-9c32-4482-a74c-a381ce04ff25",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "e32daa3f-0ae8-41d8-a1d5-661a499fe416"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "88c7bc1b-f47f-4689-bd87-6cacf263d3f4"
+      },
+      "id": "478ddb18-d2dd-4204-bb05-60b095d6bcb1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

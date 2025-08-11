@@ -1,0 +1,178 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "8506ecb5-9856-482c-b85c-d317f85c0304",
+  "startX": 50,
+  "startY": 22,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "right",
+  "showCollisionExtraTiles": true,
+  "sgbEnabled": true,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg",
+    "default-ui"
+  ],
+  "defaultSpritePaletteIds": [
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "2096aea8-2c02-43e1-a9d4-b78f51687f5c",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "22e2e2ae-ea91-4452-bea0-624b4599e9fd",
+    "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "ADVENTURE": "22e2e2ae-ea91-4452-bea0-624b4599e9fd",
+    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "color",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 1000,
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "5fd60520-2013-452b-8359-c7e314a61081": {
+        "id": "5fd60520-2013-452b-8359-c7e314a61081",
+        "name": "Preset 1",
+        "groups": [
+          "layout",
+          "behaviour",
+          "text"
+        ],
+        "args": {
+          "text": [
+            "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!!S0!!\"#\\003\\002\\003$%&\\003\\002\\004'()!S2!!F:2096aea8-2c02-43e1-a9d4-b78f51687f5c!\\003\\005\\002* Placeholder"
+          ],
+          "position": "bottom",
+          "minHeight": 5,
+          "maxHeight": 5,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      },
+      "27a0c6bf-23a4-4b8a-8ac8-13619d9bbdda": {
+        "id": "27a0c6bf-23a4-4b8a-8ac8-13619d9bbdda",
+        "name": "Preset 2",
+        "groups": [
+          "layout",
+          "behaviour",
+          "text"
+        ],
+        "args": {
+          "text": [
+            "!S3!Bringing peace to the WORLD."
+          ],
+          "position": "bottom",
+          "minHeight": 5,
+          "maxHeight": 5,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": false,
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "notModal",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      },
+      "7797a14d-e55e-4603-b706-04bf83effc26": {
+        "id": "7797a14d-e55e-4603-b706-04bf83effc26",
+        "name": "Preset 3",
+        "groups": [
+          "layout",
+          "behaviour",
+          "text",
+          "avatar"
+        ],
+        "args": {
+          "text": [
+            "!S2!* Your bed."
+          ],
+          "avatarId": "",
+          "position": "bottom",
+          "minHeight": 5,
+          "maxHeight": 5,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
+  "scriptEventDefaultPresets": {}
+}

@@ -1,0 +1,77 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "02614921-af32-4d8f-b148-38bd4561dd02",
+  "name": "save",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e33d9adc-b48f-43fd-b8a7-5dd57f2a5595",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "958d2c44-fd27-4cff-b7e0-22a69774b84b"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "0a5a8c96-1ae1-438d-8469-a88a86133cc9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "",
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "cac0b0f9-47a6-4eb5-b540-dde7ad285cc6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "b5445bfe-822d-46c0-b516-03abc8161b0d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

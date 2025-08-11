@@ -1,0 +1,108 @@
+{
+  "_resourceType": "actor",
+  "id": "0f23a0ab-7955-43c9-a5b0-20d5ca9c93e4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37f2d9f4-1e5b-4409-9baa-48be1be7edb7",
+  "prefabId": "5a402f40-64c8-4f3d-aa85-d5b07f0bcbb7",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "6f6ed183-bc9d-42af-9773-879342f17e3b": {
+      "id": "6f6ed183-bc9d-42af-9773-879342f17e3b",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": -2
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    }
+  },
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "T0"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "right",
+              "otherActorId": "$self$",
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "9119bc14-9445-40c7-ba25-a98a88cfa1b3",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "281252e8-e45f-45cb-b351-73d138f34e8f"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "T0",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "9020011f-af80-4e4b-aa75-9679f1829f15"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 3
+                  },
+                  "id": "270032b5-c8a0-41d7-8e5d-cb2695fefe5d"
+                }
+              ],
+              "false": []
+            },
+            "id": "7be9a776-8f6b-44bf-aa5a-6be43282918d"
+          }
+        ],
+        "false": []
+      },
+      "id": "5938370f-0b8f-4e58-9152-c05d21db46c1"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 69,
+  "y": 9,
+  "_index": 6
+}

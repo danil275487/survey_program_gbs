@@ -1,0 +1,10 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "playtime",
+      "symbol": "var_playtime"
+    }
+  ]
+}

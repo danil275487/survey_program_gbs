@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a5cbec67-1b16-4f16-938d-ad6470452f2e",
+  "name": "prophecy1",
+  "symbol": "bg_prophecy",
+  "width": 20,
+  "height": 42,
+  "imageWidth": 160,
+  "imageHeight": 336,
+  "filename": "prophecy1.png",
+  "tileColors": "00285+02!00c2+",
+  "autoColor": false
+}

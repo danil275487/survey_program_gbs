@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "cb8a5dc4-29fc-4fba-a9ab-bc93d24ee186",
+  "name": "snd_wobbler.wav",
+  "symbol": "sound_snd_wobbler_wav_1",
+  "filename": "snd_wobbler.wav",
+  "type": "wav"
+}

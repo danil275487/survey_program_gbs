@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "70d906f7-ada1-495d-87be-bd7cc909498a",
+  "name": "frame_over",
+  "symbol": "tileset_frame_over",
+  "width": 3,
+  "height": 3,
+  "imageWidth": 24,
+  "imageHeight": 24,
+  "filename": "frame_over.png"
+}

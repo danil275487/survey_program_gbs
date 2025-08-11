@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "2e161ba7-d808-47f7-ad25-57b2f1bd031a",
+  "name": "check for color",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_IF_COLOR_SUPPORTED",
+      "args": {
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a784cb38-8369-4e4c-a4ac-91a97e51de94",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "07945c2b-ccb9-4e36-9460-7d6337f79316"
+          }
+        ]
+      },
+      "id": "cc905bdf-52c1-4943-9116-8b4211e92959"
+    }
+  ]
+}

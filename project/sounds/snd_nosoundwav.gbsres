@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "e3b665cb-8aa3-4b30-9dfe-309b52ef19ae",
+  "name": "snd_nosound.wav",
+  "symbol": "sound_snd_nosound_wav_0",
+  "filename": "snd_nosound.wav",
+  "type": "wav"
+}

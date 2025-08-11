@@ -1,0 +1,100 @@
+{
+  "_resourceType": "actor",
+  "id": "f89f1ee4-db36-4db7-9898-dbbde8679831",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e33d9adc-b48f-43fd-b8a7-5dd57f2a5595",
+  "prefabId": "02614921-af32-4d8f-b148-38bd4561dd02",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "cac0b0f9-47a6-4eb5-b540-dde7ad285cc6": {
+      "id": "cac0b0f9-47a6-4eb5-b540-dde7ad285cc6",
+      "args": {
+        "text": [
+          "!S2!* At times, you can see it\n   flickering.\n* The light only you can see.",
+          "!S2!* By second nature, you reach\n   out, and..."
+        ],
+        "__section": "text",
+        "__presetId": "7797a14d-e55e-4603-b706-04bf83effc26",
+        "avatarId": "",
+        "minHeight": 5,
+        "maxHeight": 5,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      }
+    },
+    "e4c27e12-bd69-48a4-b022-f0a3fef930bf": {
+      "id": "e4c27e12-bd69-48a4-b022-f0a3fef930bf",
+      "args": {
+        "customEventId": "2e586f4d-872a-453c-99bc-5deefdaa25a8"
+      }
+    },
+    "15f705cb-65e8-4fa1-8480-f54be4774968": {
+      "id": "15f705cb-65e8-4fa1-8480-f54be4774968",
+      "args": {
+        "variable": "L0"
+      }
+    },
+    "4ec8095a-24be-4fc4-b0d7-1102f42d8bad": {
+      "id": "4ec8095a-24be-4fc4-b0d7-1102f42d8bad",
+      "args": {
+        "variable": "L0"
+      }
+    },
+    "bdd7ac88-2bb6-4b04-b661-024fc0a1c70e": {
+      "id": "bdd7ac88-2bb6-4b04-b661-024fc0a1c70e",
+      "args": {
+        "variable": "L0"
+      }
+    },
+    "b5445bfe-822d-46c0-b516-03abc8161b0d": {
+      "id": "b5445bfe-822d-46c0-b516-03abc8161b0d",
+      "args": {
+        "customEventId": "2e586f4d-872a-453c-99bc-5deefdaa25a8",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "958d2c44-fd27-4cff-b7e0-22a69774b84b": {
+      "id": "958d2c44-fd27-4cff-b7e0-22a69774b84b",
+      "args": {
+        "type": "9912f8a4-7beb-4436-ae4c-244d875a02ad"
+      }
+    },
+    "0a5a8c96-1ae1-438d-8469-a88a86133cc9": {
+      "id": "0a5a8c96-1ae1-438d-8469-a88a86133cc9",
+      "args": {
+        "type": "9912f8a4-7beb-4436-ae4c-244d875a02ad"
+      }
+    }
+  },
+  "symbol": "actor_2",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 4,
+  "_index": 0
+}
