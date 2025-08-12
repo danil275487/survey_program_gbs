@@ -4,7 +4,17 @@
     {
       "id": "0",
       "name": "playtime",
-      "symbol": "var_playtime"
+      "symbol": "var_playtime_0"
+    },
+    {
+      "id": "1",
+      "name": "playtimethd",
+      "symbol": "var_playtimethd"
+    },
+    {
+      "id": "2",
+      "name": "runthd",
+      "symbol": "var_runthd"
     }
   ]
 }

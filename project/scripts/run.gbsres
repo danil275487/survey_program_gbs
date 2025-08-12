@@ -19,41 +19,23 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_IF_INPUT",
+            "command": "EVENT_SET_INPUT_SCRIPT_EX",
             "args": {
               "input": [
                 "b"
               ],
-              "__collapseElse": false,
-              "__collapse": false
+              "__scriptTabs": "hold"
             },
             "children": {
-              "true": [
+              "onPressed": [
                 {
                   "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
                   "args": {
                     "actorId": "$self$",
-                    "speed": 1.5
+                    "speed": 1.3,
+                    "__collapse": false
                   },
-                  "id": "5aff86a9-8b46-4526-a47c-c70df1283366"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-                  "args": {
-                    "actorId": "$self$",
-                    "speed": 7
-                  },
-                  "id": "ffb5881f-a3aa-4224-b63a-3c83003f804a"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-                  "args": {
-                    "actorId": "$self$",
-                    "speed": 1
-                  },
-                  "id": "323d21a4-e00c-41d1-9d43-cfb6d1eed1a9"
+                  "id": "af807f31-cef0-4f56-b719-abaa271947fb"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -61,15 +43,59 @@
                     "actorId": "$self$",
                     "speed": 15
                   },
-                  "id": "9630e243-b8fc-4077-82ec-ef4f49cf99e1"
+                  "id": "e8fe5aff-cfa6-4f79-93da-fedc41636573"
+                }
+              ],
+              "onHold": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30
+                  },
+                  "id": "5e42550d-43f3-43e0-ae69-0ea0215d698d"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 1.7
+                  },
+                  "id": "0811b0d3-3939-4d53-bb1a-fa26c5e71d91"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 7
+                  },
+                  "id": "78fff21e-db2d-48e9-b0a0-99221101a9f3"
+                }
+              ],
+              "onRelease": [
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 1
+                  },
+                  "id": "38054fbb-3488-4d82-b3e0-17eee204934f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 15
+                  },
+                  "id": "7b7b5189-b867-4a7f-827c-9ce7a8e47fa2"
                 }
               ]
             },
-            "id": "65a03309-21ae-4074-96b6-fd7dc6f723de"
+            "id": "14cccdf0-c8f1-41ff-97c3-66a0d8c22441"
           }
         ]
       },
-      "id": "cce0da43-f60b-45c4-a6aa-c97d9be367eb"
+      "id": "76bfcb53-9626-4b98-a309-22f2d9f7b165"
     }
   ]
 }

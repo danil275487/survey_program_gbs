@@ -33,7 +33,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -271,6 +271,13 @@
       },
       "id": "beded6dd-7f06-4033-88ad-6b946c4e4da2",
       "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2c86036e-f3e4-46be-9769-b3bf1c4b2de7"
+      },
+      "id": "4f98df58-154c-4d05-8606-e9a448d6a275"
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",

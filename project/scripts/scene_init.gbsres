@@ -73,9 +73,9 @@
     {
       "command": "EVENT_THREAD_START",
       "args": {
-        "variable": "V0",
+        "variable": "1",
         "__scriptTabs": "true",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -110,7 +110,11 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "2c86036e-f3e4-46be-9769-b3bf1c4b2de7"
+        "customEventId": "2c86036e-f3e4-46be-9769-b3bf1c4b2de7",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "V0"
+        }
       },
       "id": "7bae4121-3480-4fad-b556-7448994d708a"
     }
